@@ -3,14 +3,15 @@
     <head>
         <meta charset="utf = 8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
             <h1>Rock Paper Scissors</h1>
         </header>
-        <div class="scorboard">
-            <div id = "playerBadge" class = "playerDisplay">player </div>
-            <div id="computerBadge" class="playerDisplay">computer</div>
+        <div class="scoreboard">
+            <div id = "playerBadge" class = "playerDisplay">Player </div>
+            <div id= "computerBadge" class="playerDisplay">Computer</div>
             <span id="playerScore">0</span>
             <span>:</span>
             <span id="computerScore">0</span>
@@ -21,11 +22,19 @@
 
         </div>
         <div class="choices">
-            <div class="choice">
-                <img src="rock.png" alt="">
+            <div class="choice" id="r">
+                <img src="rock.png" width="125" height="125" alt="Picture of a rock.">
+            </div>
+            <div class="choice" id="s">
+                <img src="scissors.png" width="125" height="125" alt="Picture of a pair of scissors.">
+            </div>
+            <div class="choice" id="p">
+                <img src="paper.png" width="125" height="125" alt="Picture of a piece of paper.">
             </div>
 
+
         </div>
+        <p id="Action Message">Make your move!</p>
 
 
     </body>
